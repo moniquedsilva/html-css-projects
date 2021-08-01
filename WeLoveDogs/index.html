@@ -4,39 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>WeLoveDogs</title>
   </head>
   <body>
-    <header>
+    <header class="header-area">
       <a href="index.html">
         <figure>
-          <img src="assets/welovedogs.svg" alt="Logo WeLoveDogs" />
+          <img
+            src="assets/welovedogs.svg"
+            alt="Logo WeLoveDogs"
+            class="header-logo"
+          />
         </figure>
       </a>
       <nav>
-        <ul>
+        <ul class="nav-area">
           <li>
-            <a href="./pages/quem-somos.html" target="_blank">Quem Somos</a>
+            <a href="./pages/quem-somos.html" target="_blank" class="links">
+              Quem Somos
+            </a>
           </li>
           <li>
-            <a href="./pages/blog.html" target="_blank">Blog</a>
+            <a href="./pages/blog.html" target="_blank" class="links"> Blog </a>
           </li>
           <li>
-            <a href="./pages/inscrever.html" target="_blank">Inscrever</a>
+            <a
+              href="./pages/inscrever.html"
+              target="_blank"
+              class="inscrever-link"
+            >
+              Inscrever
+            </a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Junte-se a comunidade apaixonada por cachorros</h1>
-          <a href="./pages/inscrever.html">
-            <button>Inscrever</button>
-          </a>
+      <section class="content-container">
+        <div class="content">
+          <h1 class="title">Junte-se a comunidade apaixonada por cachorros</h1>
+          <button
+            class="btn"
+            onclick="window.location.href='./pages/inscrever.html'"
+          >
+            Inscrever-se
+          </button>
         </div>
         <figure>
-          <img src="assets/home-figure.svg" alt="Garota e cachorro saltando" />
+          <img
+            src="assets/home-figure.svg"
+            alt="Garota e cachorro saltando"
+            class="section-img"
+          />
         </figure>
       </section>
     </main>
