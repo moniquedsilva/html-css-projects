@@ -14,6 +14,10 @@
   display: flex;
   gap: 2.25rem;
 }
+.links {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 
 .links:hover {
   color: var(--green);
@@ -21,7 +25,9 @@
 
 .inscrever-link {
   padding: 9px 32px;
-  border-radius: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 15px;
   color: var(--dark-green);
   background-color: var(--light-green);
   transition: all 0.3ms linear;
@@ -32,7 +38,8 @@
 }
 
 .content-container {
-  padding: 50px 50px 0px 50px;
+  padding-top: 60px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +51,7 @@
 }
 
 .content {
-  width: 30.375rem;
+  width: 23.375rem;
 }
 
 .title {
@@ -54,10 +61,10 @@
 
 .btn {
   padding: 13px 50px;
-  font-size: 1.15rem;
-  border-radius: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-radius: 15px;
   cursor: pointer;
   background-color: var(--green);
   color: var(--dark-green);
-  transition: all 0.3ms linear;
 }
