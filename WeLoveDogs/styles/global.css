@@ -36,3 +36,42 @@ button {
   --dark-green: #1c4701;
   --light-green: hsla(89, 73%, 48%, 0.4);
 }
+
+.header-area {
+  padding: 27px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 17.5625rem;
+}
+
+.nav-area {
+  display: flex;
+  gap: 2.25rem;
+}
+.links {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.links:hover {
+  color: var(--green);
+}
+
+.inscrever-link {
+  padding: 9px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 15px;
+  color: var(--dark-green);
+  background-color: var(--light-green);
+  transition: all 0.3ms linear;
+}
+
+.inscrever-link:hover {
+  background-color: var(--green);
+}
