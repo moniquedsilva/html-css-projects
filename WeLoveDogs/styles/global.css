@@ -75,3 +75,27 @@ button {
 .inscrever-link:hover {
   background-color: var(--green);
 }
+
+form,
+input,
+label,
+textarea {
+  font-family: inherit;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 17px;
+}
+
+.btn {
+  padding: 10px 45px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--green);
+  cursor: pointer;
+}
