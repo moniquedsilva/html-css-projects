@@ -1,0 +1,31 @@
+.content-container {
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.875rem;
+}
+
+.section-img {
+  width: 40rem;
+}
+
+.content {
+  width: 23.375rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 13px 50px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: var(--green);
+  color: var(--dark-green);
+}

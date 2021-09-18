@@ -1,0 +1,31 @@
+.title {
+  font-size: 3rem;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.post-content {
+  width: 56rem;
+  display: flex;
+  align-items: center;
+}
+
+.img-blog {
+  width: 19rem;
+}
+
+.post-title {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.post-text {
+  font-size: 1rem;
+  text-align: justify;
+}
