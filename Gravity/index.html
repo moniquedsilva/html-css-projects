@@ -18,6 +18,15 @@
       <a href="index.html">
         <img src="./assets/logo.svg" alt="Logo Gravity" class="logo" />
       </a>
+      <nav class="nav-area-mobile">
+        <img src="./assets/menu.svg" alt="Menu" class="menu-mobile" />
+        <div class="menu-links-mobile">
+          <a href="#" class="links">Features</a>
+          <a href="#" class="links">Pricing</a>
+          <a href="#" class="links">Why Gravity</a>
+          <a href="#" class="links sign-in">Sign In</a>
+        </div>
+      </nav>
       <nav class="nav-area">
         <a href="#" class="links">Features</a>
         <a href="#" class="links">Pricing</a>
@@ -37,5 +46,14 @@
         <img src="./assets/image.PNG" alt="Time tracking" class="image" />
       </div>
     </main>
+    <script>
+      let menu = document
+        .querySelector('.nav-area-mobile')
+        .addEventListener('click', () => {
+          let nav = document
+            .querySelector('.menu-links-mobile')
+            .classList.toggle('active');
+        });
+    </script>
   </body>
 </html>
