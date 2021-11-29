@@ -89,3 +89,9 @@ label,
 textarea {
   font-family: inherit;
 }
+
+@media (max-width: 90em) {
+  .container {
+    width: 95%;
+  }
+}
