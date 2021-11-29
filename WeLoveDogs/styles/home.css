@@ -44,7 +44,7 @@
     gap: 1rem;
   }
   .content {
-    width: 50rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,5 +54,21 @@
   .btn {
     padding: 13px 60px;
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .section-figure {
+    width: 100%;
+  }
+  .section-img {
+    width: 100%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .btn {
+    padding: 13px 50px;
+    font-size: 1.125rem;
   }
 }
