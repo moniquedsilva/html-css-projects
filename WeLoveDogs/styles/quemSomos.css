@@ -20,3 +20,24 @@
 .img-about {
   width: 22.125rem;
 }
+
+@media (max-width: 64em) {
+  .paragraph {
+    width: 90%;
+  }
+}
+
+@media (max-width: 48em) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .pic-about {
+    width: 100%;
+  }
+  .img-about {
+    width: 100%;
+  }
+}
