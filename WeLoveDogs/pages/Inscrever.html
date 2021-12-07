@@ -15,77 +15,78 @@
     <title>WeLoveDogs - Inscrever</title>
   </head>
   <body>
-    <div class="container"></div>
-    <header class="header-area">
-      <a href="./../index.html">
-        <figure>
-          <img
-            src="./../assets/welovedogs.svg"
-            alt="Logo WeLoveDogs"
-            class="header-logo"
-          />
-        </figure>
-      </a>
-      <nav>
-        <ul class="nav-area">
-          <li>
-            <a href="./quem-somos.html" class="links"> Quem Somos </a>
-          </li>
-          <li>
-            <a href="./blog.html" class="links"> Blog </a>
-          </li>
-          <li>
-            <a href="./inscrever.html" class="inscrever-link"> Inscrever </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1 class="title">Inscrição</h1>
-      <section class="container">
-        <form onsubmit="confirmacao()">
-          <div class="form-area">
-            <label for="name">Nome</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Seu nome"
-              required
+    <div class="container">
+      <header class="header-area">
+        <a href="./../index.html">
+          <figure>
+            <img
+              src="./../assets/welovedogs.svg"
+              alt="Logo WeLoveDogs"
+              class="header-logo"
             />
-            <label for="age">Idade</label>
-            <input type="number" name="age" id="age" placeholder="18" />
-            <label for="email">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="exemplo@exemplo"
+          </figure>
+        </a>
+        <nav>
+          <ul class="nav-area">
+            <li>
+              <a href="./quem-somos.html" class="links"> Quem Somos </a>
+            </li>
+            <li>
+              <a href="./blog.html" class="links"> Blog </a>
+            </li>
+            <li>
+              <a href="./inscrever.html" class="inscrever-link"> Inscrever </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="title">Inscrição</h1>
+        <section class="section-inscricao">
+          <form onsubmit="confirmacao()">
+            <div class="form-area">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Seu nome"
+                required
+              />
+              <label for="age">Idade</label>
+              <input type="number" name="age" id="age" placeholder="18" />
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="exemplo@exemplo"
+              />
+              <label for="msg" id="label-msg">Ama cachorro?</label>
+              <textarea
+                id="msg"
+                name="msg"
+                rows="4"
+                cols="50"
+                placeholder="Mensagem"
+              ></textarea>
+            </div>
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+          <picture>
+            <img
+              src="./../assets/inscricao-figure.svg"
+              alt="Garota com coração verde"
+              className="img-inscricao"
             />
-            <label for="msg" id="label-msg">Ama cachorro?</label>
-            <textarea
-              id="msg"
-              name="msg"
-              rows="4"
-              cols="50"
-              placeholder="Mensagem"
-            ></textarea>
-          </div>
-          <button class="btn" type="submit">Enviar</button>
-        </form>
-        <picture>
-          <img
-            src="./../assets/inscricao-figure.svg"
-            alt="Garota com coração verde"
-            className="img-inscricao"
-          />
-        </picture>
-      </section>
-    </main>
-    <script>
-      function confirmacao() {
-        alert('Obrigado(a) pela resposta');
-      }
-    </script>
+          </picture>
+        </section>
+      </main>
+      <script>
+        function confirmacao() {
+          alert('Obrigado(a) pela resposta');
+        }
+      </script>
+    </div>
   </body>
 </html>
