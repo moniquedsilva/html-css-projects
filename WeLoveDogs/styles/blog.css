@@ -29,3 +29,21 @@
   font-size: 1rem;
   text-align: justify;
 }
+
+@media (max-width: 60em) {
+  .post-content {
+    width: 70%;
+  }
+  .post-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 27em) {
+  .fig-blog {
+    width: 100%;
+  }
+  .img-blog {
+    width: 100%;
+  }
+}
